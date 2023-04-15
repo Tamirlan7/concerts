@@ -1,0 +1,22 @@
+.seats-block {
+    max-width: 1100px;
+}
+
+.seats, .seats-block {
+    display: flex;
+}
+
+.seat-name {
+    width: 80px;
+}
+
+.seats {
+    margin-left: 10px;
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.seats:not(:last-child) {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,29 @@
+.seat {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 1px solid #404040;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seat-unavail {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 1px solid #d5d036dd;
+    background-color: #d5d036dd;
+}
+
+.choosed-seat {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 1px solid #4fc22fdd;
+    background-color: #4fc22fdd;
+    cursor: pointer;
+}

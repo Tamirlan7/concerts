@@ -1,0 +1,8 @@
+.inner-section {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    padding: 20px 0;
+}

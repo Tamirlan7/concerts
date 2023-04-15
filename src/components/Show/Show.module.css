@@ -1,0 +1,35 @@
+.show {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #000;
+    height: 150px;
+    gap: 10px;
+    padding: 0 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.show-no-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #000;
+    height: 150px;
+    gap: 10px;
+    padding: 0 20px;
+    border-radius: 5px;
+    cursor: default;
+}
+
+.date {
+    font-weight: 500;
+}
+
+.location {
+    font-weight: 300;
+}
+
+.time {
+    font-weight: 600;
+}
